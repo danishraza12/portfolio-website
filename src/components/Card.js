@@ -6,7 +6,7 @@ import Typical from 'react-typical';
 const Card = () => {
   return (
     <div className="w-full">
-      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
+      <div className="flex flex-col justify-center max-w-sm mx-auto bg-white shadow-xl rounded-xl p-2">
         <div className="">
           <img
             className="w-32 mx-auto shadow-xl rounded-full drop-shadow-sm"

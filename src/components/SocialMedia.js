@@ -26,13 +26,3 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {})(SocialMedia);
-
-/** 
- * PurgeCSS: 
- * text-gray-800
- * text-blue-700
- * text-yellow-800
- * text-black
- * 
- 
- */
