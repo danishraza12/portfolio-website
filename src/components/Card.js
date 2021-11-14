@@ -20,12 +20,14 @@ const Card = () => {
           <Typical
             className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2"
             steps={[
-              ' ',
-              100,
-              'Associate Software Engineer',
-              3000,
-              'Junior Software Engineer',
-              3000,
+              'Open to work as ',
+              130,
+              'Open to work as Trainee Software Engineer',
+              1500,
+              'Open to work as Associate Software Engineer',
+              1500,
+              'Open to work as Junior Software Engineer',
+              1500,
             ]}
             loop={Infinity}
           />
