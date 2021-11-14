@@ -63,7 +63,7 @@ const socialMediaReducer = () => {
       icon: FaEnvelope,
       link: 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXrlwdBPCKKrwRGBQbxqzHqlQHDllVfRkQJJMzhHWwRNHjwqSshmnvZwcfNqnkDZRkbzh',
       name: 'Gmail',
-      color: 'black',
+      color: 'yellow-800',
     },
     {
       icon: BsMedium,
