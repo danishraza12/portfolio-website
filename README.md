@@ -2,8 +2,6 @@
 
 Personal Portfolio website created using React.js, Redux, Tailwind CSS and react-typical
 
-**Link:** danish-personal.netlify.app/
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
