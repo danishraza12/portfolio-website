@@ -21,7 +21,7 @@ const About = () => {
       </p>
 
       <ScrollIntoView selector="#tech">
-        <div className="mx-auto p-20">
+        <div className="mx-auto p-16">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
       </ScrollIntoView>
