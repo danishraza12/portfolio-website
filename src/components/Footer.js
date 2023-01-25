@@ -9,11 +9,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-center mt-4">
         <p className="text-black mb-4">
-          Made with{' '}
-          <span className="mr-2" role="link" aria-label="heart">
-            💙
-          </span>
-          by{' '}
+          Made by{' '}
           <a
             className="text-blue-500 hover:underline"
             href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXrlwdBPCKKrwRGBQbxqzHqlQHDllVfRkQJJMzhHWwRNHjwqSshmnvZwcfNqnkDZRkbzh"
