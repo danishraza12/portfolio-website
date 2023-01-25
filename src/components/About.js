@@ -11,10 +11,10 @@ const About = () => {
       <p className="text-base md:text-xl text-justify text-gray-600 leading-relaxed mt-4">
         An extremely motivated and competent Software Engineer possessing
         an extensive pool of knowledge and skill-set within the Software
-        Engineering domain, having over 2 years of experience. I am interested 
-        in Web Development and have completed multiple projects using{' '} 
-        <strong>Angular 2+, Node.js (TypeScript), AWS, React.js, Redux, .NET, .NET Core</strong>. Also 
-        have experience in different version control software such as{' '} 
+        Engineering domain, having over{' '} <strong> 2 years </strong> of experience. 
+        I am interested in Web Development and have completed multiple projects using{' '} 
+        <strong>Angular 2+, Node.js (TypeScript), AWS, React.js, Redux, .NET, .NET Core</strong>. 
+        Also have experience in different version control software such as{' '} 
         <strong>Git, GitBash, BitBucket, SourceTree</strong> along with database 
         management using{' '} <strong>SQL Server Management Studio(SSMS), MongoDB,
         PostgreSQL and Oracle PL/SQL</strong>.
