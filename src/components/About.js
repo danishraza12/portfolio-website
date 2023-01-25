@@ -12,7 +12,7 @@ const About = () => {
         An extremely motivated and competent Software Engineer possessing
         an extensive pool of knowledge and skill-set within the Software
         Engineering domain, having over 2 years of experience. I am interested 
-        in Web Development and have completed multiple projects using 
+        in Web Development and have completed multiple projects using{' '} 
         <strong>Angular 2+, Node.js (TypeScript), React.js, Redux, .NET, .NET Core</strong>. Also 
         have experience in different version control software such as{' '} 
         <strong>Git, GitBash, BitBucket, SourceTree</strong> along with database 
