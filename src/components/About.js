@@ -13,11 +13,11 @@ const About = () => {
         an extensive pool of knowledge and skill-set within the Software
         Engineering domain, having over 2 years of experience. I am interested 
         in Web Development and have completed multiple projects using{' '} 
-        <strong>Angular 2+, Node.js (TypeScript), React.js, Redux, .NET, .NET Core</strong>. Also 
+        <strong>Angular 2+, Node.js (TypeScript), AWS, React.js, Redux, .NET, .NET Core</strong>. Also 
         have experience in different version control software such as{' '} 
         <strong>Git, GitBash, BitBucket, SourceTree</strong> along with database 
-        management using{' '} <strong>Oracle PL/SQL and SQL Server Management 
-        Studio(SSMS)</strong>.
+        management using{' '} <strong>SQL Server Management Studio(SSMS), MongoDB,
+        PostgreSQL and Oracle PL/SQL</strong>.
       </p>
 
       <ScrollIntoView selector="#tech">
