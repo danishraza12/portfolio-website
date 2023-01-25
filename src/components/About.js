@@ -9,15 +9,15 @@ const About = () => {
         Hey 👋
       </p>
       <p className="text-base md:text-xl text-justify text-gray-600 leading-relaxed mt-4">
-        I am an extremely motivated and competent Software Engineer possessing
+        An extremely motivated and competent Software Engineer possessing
         an extensive pool of knowledge and skill-set within the Software
-        Engineering domain. I am interested in Web Development and have
-        completed multiple projects using <strong>React JS and Redux</strong>. I
-        have also worked on different <strong>.NET and .NET Core </strong>{' '}
-        projects and have hands on experience in{' '}
-        <strong>Web API creation, testing, consuming</strong> along with
-        database management using{' '}
-        <strong>Oracle PL/SQL and SQL Server Management Studio(SSMS)</strong>.
+        Engineering domain, having over 2 years of experience. I am interested 
+        in Web Development and have completed multiple projects using 
+        <strong>Angular 2+, Node.js (TypeScript), React.js, Redux, .NET, .NET Core</strong>. Also 
+        have experience in different version control software such as{' '} 
+        <strong>Git, GitBash, BitBucket, SourceTree</strong> along with database 
+        management using{' '} <strong>Oracle PL/SQL and SQL Server Management 
+        Studio(SSMS)</strong>.
       </p>
 
       <ScrollIntoView selector="#tech">
