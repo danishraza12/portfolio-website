@@ -22,12 +22,10 @@ const Card = () => {
             steps={[
               'Open to work as ',
               130,
-              'Open to work as Trainee Software Engineer',
+              'Open to work as Software Engineer',
               1500,
-              'Open to work as Associate Software Engineer',
-              1500,
-              'Open to work as Junior Software Engineer',
-              1500,
+              'Open to work as Senior Software Engineer',
+              1500
             ]}
             loop={Infinity}
           />
