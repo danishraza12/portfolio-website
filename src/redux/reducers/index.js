@@ -16,31 +16,37 @@ const skillsReducer = () => {
       icon: FaReact,
       name: 'React',
       color: '2196f3',
+      key: 1,
     },
     {
       icon: SiJavascript,
       name: 'JavaScript',
       color: 'ffdf00',
+      key: 2,
     },
     {
       icon: SiRedux,
       name: 'Redux',
       color: '4B0082',
+      key: 3,
     },
     {
       icon: FaMicrosoft,
       name: '.NET/.NET Core',
       color: '4B0082',
+      key: 4,
     },
     {
       icon: SiTailwindcss,
       name: 'Tailwind CSS',
       color: '00C0A3',
+      key: 5,
     },
     {
       icon: AiOutlineConsoleSql,
       name: 'Oracle / SSMS',
       color: '888888',
+      key: 6,
     },
   ];
 };
@@ -52,24 +58,28 @@ const socialMediaReducer = () => {
       link: 'https://github.com/danishraza12',
       name: 'Github',
       color: 'gray-800',
+      key: 1,
     },
     {
       icon: FaLinkedin,
       link: 'https://www.linkedin.com/in/danishraza12/',
       name: 'Linkedin',
       color: 'blue-700',
+      key: 2,
     },
     {
       icon: FaEnvelope,
       link: 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXrlwdBPCKKrwRGBQbxqzHqlQHDllVfRkQJJMzhHWwRNHjwqSshmnvZwcfNqnkDZRkbzh',
       name: 'Gmail',
       color: 'yellow-800',
+      key: 3,
     },
     {
       icon: BsMedium,
       link: 'https://medium.com/@danish_raza',
       name: 'Medium',
       color: 'black',
+      key: 4,
     },
   ];
 };

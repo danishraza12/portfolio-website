@@ -1,7 +1,7 @@
 import React from 'react';
 import profile from '../images/react-logo.jpg';
 import SocialMedia from './SocialMedia';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 
 const Card = () => {
   return (
@@ -17,7 +17,7 @@ const Card = () => {
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl text-black-900">Danish Raza</p>
 
-          <Typical
+          {/* <Typical
             className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2"
             steps={[
               'Open to work as ',
@@ -28,7 +28,7 @@ const Card = () => {
               1500
             ]}
             loop={Infinity}
-          />
+          /> */}
           <div className="flex align-center justify-center mt-4">
             <SocialMedia />
           </div>
