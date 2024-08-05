@@ -9,12 +9,12 @@ const Skills = ({ skills }) => {
       </p>
       <div className="flex flex-wrap justify-center pt-4">
         {/* Dynamically rendering component from list */}
-        {skills.map(({icon: SkillIcon, color, name, key}, index) => (
+        {skills.map(({icon: SkillIcon, color, name}, index) => (
           <div
             className={`${
               index % 2 === 0 ? ' animate-float' : ' animate-refloat'
             } flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52`}
-            key={key}
+            key={index}
           >
             <SkillIcon color={color} className="mx-auto text-5xl" />
             <p className="mt-6 text-xl sm:text-2xl font-semibold text-center">

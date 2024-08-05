@@ -5,48 +5,54 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
+  FaAngular,
+  FaAws,
+  FaNodeJs,
 } from 'react-icons/fa';
-import { SiJavascript, SiTailwindcss, SiRedux } from 'react-icons/si';
-import { AiOutlineConsoleSql } from 'react-icons/ai';
+import { SiTypescript, SiMongodb, SiMicrosoftsqlserver } from 'react-icons/si';
 import { BsMedium } from 'react-icons/bs';
 
 const skillsReducer = () => {
   return [
     {
+      icon: FaAngular,
+      name: 'Angular',
+      color: 'FF0000',
+    },
+    {
+      icon: FaNodeJs,
+      name: 'Node.js',
+      color: '0A7029',
+    },
+    {
+      icon: SiMongodb,
+      name: 'MongoDB',
+      color: '00ff00',
+    },
+    {
+      icon: FaAws,
+      name: 'AWS',
+      color: 'FFC300',
+    },
+    {
+      icon: SiTypescript,
+      name: 'TypeScript',
+      color: '2196f3',
+    },
+    {
       icon: FaReact,
       name: 'React',
       color: '2196f3',
-      key: 1,
-    },
-    {
-      icon: SiJavascript,
-      name: 'JavaScript',
-      color: 'ffdf00',
-      key: 2,
-    },
-    {
-      icon: SiRedux,
-      name: 'Redux',
-      color: '4B0082',
-      key: 3,
     },
     {
       icon: FaMicrosoft,
-      name: '.NET/.NET Core',
+      name: '.NET Core',
       color: '4B0082',
-      key: 4,
     },
     {
-      icon: SiTailwindcss,
-      name: 'Tailwind CSS',
-      color: '00C0A3',
-      key: 5,
-    },
-    {
-      icon: AiOutlineConsoleSql,
-      name: 'Oracle / SSMS',
-      color: '888888',
-      key: 6,
+      icon: SiMicrosoftsqlserver,
+      name: 'SQL Server',
+      color: 'ff45b5',
     },
   ];
 };

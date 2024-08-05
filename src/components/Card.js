@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../images/react-logo.jpg';
+import profile from '../images/profile_screenshot.png';
 import SocialMedia from './SocialMedia';
 import { TypeAnimation } from 'react-type-animation';
 
@@ -21,9 +21,9 @@ const Card = () => {
             sequence={[
               'Open to work as ',
               1000, // 1s
-              'Open to work as Software Engineer',
-              1000,
               'Open to work as Senior Software Engineer',
+              1000,
+              'Open to work as Full Stack Engineer',
               1000,
             ]}
             wrapper="span"
