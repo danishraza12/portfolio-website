@@ -1,7 +1,7 @@
 import React from 'react';
-import profile from '../images/react-logo.jpg';
+import profile from '../images/profile_screenshot.png';
 import SocialMedia from './SocialMedia';
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 
 const Card = () => {
   return (
@@ -16,18 +16,20 @@ const Card = () => {
         </div>
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl text-black-900">Danish Raza</p>
-
-          <Typical
-            className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2"
-            steps={[
+          <TypeAnimation
+            // className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2"
+            sequence={[
               'Open to work as ',
-              130,
-              'Open to work as Software Engineer',
-              1500,
+              1000, // 1s
               'Open to work as Senior Software Engineer',
-              1500
+              1000,
+              'Open to work as Full Stack Engineer',
+              1000,
             ]}
-            loop={Infinity}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: '1em', display: 'inline-block' }}
+            repeat={Infinity}
           />
           <div className="flex align-center justify-center mt-4">
             <SocialMedia />

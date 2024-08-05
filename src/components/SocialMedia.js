@@ -2,19 +2,16 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 const SocialMedia = ({ socialMedia }) => {
-  var SocialMediaIcon;
-
   return (
     <>
-      {socialMedia.map((app) => (
+      {socialMedia.map(({icon: Icon, color, key, link, name}) => (
         <a
-          className={`text-xl m-1 p-1 sm:m-2 sm:p-2 text-${app.color} hover:bg-${app.color} rounded-full 
+          className={`text-xl m-1 p-1 sm:m-2 sm:p-2 text-${color} hover:bg-${color} rounded-full 
             hover:text-white transition-colors duration-300`}
-          href={app.link}
+          href={link} key={key}
         >
-          {(SocialMediaIcon = app.icon)}
-          <SocialMediaIcon />
-          <span className="sr-only">{app.name}</span>
+          <Icon />
+          <span className="sr-only">{name}</span>
         </a>
       ))}
     </>
