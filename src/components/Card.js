@@ -1,7 +1,8 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+
 import profile from '../images/profile_screenshot.png';
 import SocialMedia from './SocialMedia';
-import { TypeAnimation } from 'react-type-animation';
 
 const Card = () => {
   return (

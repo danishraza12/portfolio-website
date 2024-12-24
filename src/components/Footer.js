@@ -1,5 +1,7 @@
 import React from 'react';
+
 import SocialMedia from './SocialMedia';
+import { EMAIL } from '../constants/contact';
 
 const Footer = () => {
   return (
@@ -12,7 +14,7 @@ const Footer = () => {
           Made by{' '}
           <a
             className="text-blue-500 hover:underline"
-            href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXrlwdBPCKKrwRGBQbxqzHqlQHDllVfRkQJJMzhHWwRNHjwqSshmnvZwcfNqnkDZRkbzh"
+            href={"mailto:" + EMAIL}
           >
             Danish Raza
           </a>
