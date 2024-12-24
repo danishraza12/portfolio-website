@@ -8,9 +8,12 @@ import {
   FaAngular,
   FaAws,
   FaNodeJs,
+  FaPython,
 } from 'react-icons/fa';
 import { SiTypescript, SiMongodb, SiMicrosoftsqlserver } from 'react-icons/si';
 import { BsMedium } from 'react-icons/bs';
+
+import { EMAIL } from '../../constants/contact';
 
 const skillsReducer = () => {
   return [
@@ -54,6 +57,11 @@ const skillsReducer = () => {
       name: 'SQL Server',
       color: 'ff45b5',
     },
+    {
+      icon: FaPython,
+      name: 'Python',
+      color: '3776ab',
+    },
   ];
 };
 
@@ -75,7 +83,7 @@ const socialMediaReducer = () => {
     },
     {
       icon: FaEnvelope,
-      link: 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXrlwdBPCKKrwRGBQbxqzHqlQHDllVfRkQJJMzhHWwRNHjwqSshmnvZwcfNqnkDZRkbzh',
+      link: 'mailto: ' + EMAIL,
       name: 'Gmail',
       color: 'yellow-800',
       key: 3,
